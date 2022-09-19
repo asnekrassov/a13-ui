@@ -1,0 +1,16 @@
+.calendar__wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 50px;
+    max-width: 320px;
+    border: 1px solid antiquewhite;
+}
+
+.calendar__day {
+    border: 1px solid aliceblue;
+}
+
+.calendar__day:hover {
+    background: antiquewhite;
+    cursor: pointer;
+}
