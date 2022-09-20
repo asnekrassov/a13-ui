@@ -14,3 +14,7 @@
     background: antiquewhite;
     cursor: pointer;
 }
+
+.calendar__day:focus {
+    background: antiquewhite;
+}

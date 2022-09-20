@@ -1,8 +1,8 @@
 import * as React from 'react'
-import IA13Button from '../../interfaces/A13ButtonProps'
+import A13ButtonProps from '../../interfaces/A13ButtonProps'
 import './A13Button.css'
 
-const A13Button: React.FunctionComponent<IA13Button> = ({
+const A13Button: React.FunctionComponent<A13ButtonProps> = ({
     children,
     color,
     ...props
